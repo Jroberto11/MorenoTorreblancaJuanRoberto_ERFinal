@@ -4,13 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MorenoTorreblancaJuanRoberto_ERFinal
+namespace ConsoleApplication1
 {
     class Program
     {
         static void Main(string[] args)
         {
-            //
+            String aux = Console.ReadLine();
+            int opcion = 0;
+            Int32.TryParse(aux, out opcion);
+
         }
     }
 }
